@@ -1,0 +1,77 @@
+.news .contents {
+  background: #fff; }
+  .news .contents .leadarea {
+    padding: 80px 80px 80px 80px;
+    background: #fff; }
+    .news .contents .leadarea h1 {
+      color: #64727a;
+      text-align: center; }
+      .news .contents .leadarea h1 span {
+        border-top: 5px solid #64727a;
+        color: #3a3a3a;
+        text-align: center;
+        margin: 25px auto 0; }
+  .news .contents h2 {
+    font-size: 3rem;
+    color: #64727a;
+    margin-bottom: 35px; }
+    .news .contents h2 span {
+      font-size: 1.6rem;
+      color: #3a3a3a;
+      font-weight: bold;
+      vertical-align: middle;
+      margin-left: 10px; }
+  .news .contents .news_content {
+    background: linear-gradient(#d3dee5, #cbd9df);
+    padding: 140px 80px 0; }
+    @media screen and (max-width: 1000px) {
+      .news .contents .news_content {
+        padding: 0% 7% 0; } }
+    .news .contents .news_content .outer_contents {
+      padding: 80px;
+      position: relative;
+      top: -160px;
+      max-width: 1250px;
+      box-sizing: border-box;
+      margin: auto; }
+      @media screen and (max-width: 1000px) {
+        .news .contents .news_content .outer_contents {
+          padding: 7%;
+          top: -60px; } }
+    .news .contents .news_content table {
+      width: 100%;
+      font-size: 1.6rem; }
+      @media screen and (max-width: 1000px) {
+        .news .contents .news_content table {
+          font-size: 2.2rem; } }
+      .news .contents .news_content table tr {
+        border-bottom: solid #c0c0c0 1px; }
+        .news .contents .news_content table tr:last-child {
+          border-bottom: solid #c0c0c0 0px; }
+        .news .contents .news_content table tr th, .news .contents .news_content table tr td {
+          padding: 25px 0;
+          vertical-align: top; }
+          @media screen and (max-width: 1000px) {
+            .news .contents .news_content table tr th, .news .contents .news_content table tr td {
+              display: block; } }
+        .news .contents .news_content table tr th {
+          text-align: left; }
+          @media screen and (max-width: 1000px) {
+            .news .contents .news_content table tr th {
+              padding-bottom: 0; } }
+    .news .contents .news_content .wp-pagenavi {
+      margin-top: 30px;
+      text-align: center; }
+      .news .contents .news_content .wp-pagenavi a {
+        border: none; }
+.news.detail .news_content .news_title_area h1 {
+  font-size: 2rem;
+  line-height: 1.5; }
+.news.detail .news_content .news_title_area p.date {
+  margin-top: 10px;
+  color: #64727a; }
+.news.detail .news_content .contents p {
+  margin: 15px 0;
+  line-height: 1.75; }
+
+/*# sourceMappingURL=style_news.css.map */

@@ -1,0 +1,115 @@
+@charset "UTF-8";
+.contact .contents {
+  background: #fff; }
+  .contact .contents .leadarea {
+    padding: 80px 80px 80px 80px;
+    background: #fff; }
+    .contact .contents .leadarea h1 {
+      color: #64727a;
+      text-align: center; }
+      .contact .contents .leadarea h1 span {
+        border-top: 5px solid #64727a;
+        color: #3a3a3a;
+        text-align: center;
+        margin: 25px auto 0; }
+  .contact .contents h2 {
+    font-size: 3rem;
+    color: #64727a;
+    margin-bottom: 35px; }
+    .contact .contents h2 span {
+      font-size: 1.6rem;
+      color: #3a3a3a;
+      font-weight: bold;
+      vertical-align: middle;
+      margin-left: 10px; }
+  .contact .contents .news_content {
+    background: linear-gradient(#d3dee5, #cbd9df);
+    padding: 140px 80px 0; }
+    @media screen and (max-width: 1000px) {
+      .contact .contents .news_content {
+        padding: 0% 7% 0; } }
+    .contact .contents .news_content .outer_contents {
+      padding: 80px;
+      position: relative;
+      top: -160px;
+      max-width: 1250px;
+      box-sizing: border-box;
+      margin: auto; }
+      @media screen and (max-width: 1000px) {
+        .contact .contents .news_content .outer_contents {
+          padding: 7%;
+          top: -60px; } }
+    .contact .contents .news_content table {
+      width: 100%;
+      font-size: 1.4rem; }
+      @media screen and (max-width: 1000px) {
+        .contact .contents .news_content table {
+          font-size: 2.2rem; } }
+      .contact .contents .news_content table tr {
+        border-bottom: solid #c0c0c0 1px; }
+        .contact .contents .news_content table tr:last-child {
+          border-bottom: solid #c0c0c0 0px; }
+        .contact .contents .news_content table tr th, .contact .contents .news_content table tr td {
+          padding: 25px 0;
+          vertical-align: top; }
+          @media screen and (max-width: 1000px) {
+            .contact .contents .news_content table tr th, .contact .contents .news_content table tr td {
+              display: block; } }
+        .contact .contents .news_content table tr th {
+          text-align: left;
+          width: 20%; }
+          .contact .contents .news_content table tr th.inq:after {
+            content: "※";
+            color: #f43b5a;
+            margin-left: 5px; }
+          @media screen and (max-width: 1000px) {
+            .contact .contents .news_content table tr th {
+              padding-bottom: 0; } }
+        .contact .contents .news_content table tr td {
+          padding-left: 5%; }
+          .contact .contents .news_content table tr td input[type="checkbox"] {
+            vertical-align: middle;
+            margin-right: 5px; }
+          .contact .contents .news_content table tr td input[type="text"], .contact .contents .news_content table tr td input[type="tel"], .contact .contents .news_content table tr td input[type="email"] {
+            width: 100%;
+            box-sizing: border-box;
+            padding: 5px; }
+          .contact .contents .news_content table tr td label {
+            display: inline-block;
+            width: 28%;
+            vertical-align: top;
+            margin: 0 2% 2% 0; }
+          .contact .contents .news_content table tr td textarea {
+            width: 100%;
+            height: 150px;
+            padding: 5px; }
+          .contact .contents .news_content table tr td dl {
+            display: table;
+            width: 100%;
+            border-collapse: separate;
+            border-spacing: 3px 10px; }
+            .contact .contents .news_content table tr td dl dt, .contact .contents .news_content table tr td dl dd {
+              display: table-cell; }
+            .contact .contents .news_content table tr td dl dt {
+              width: 20%; }
+            .contact .contents .news_content table tr td dl dd select {
+              height: 30px;
+              width: 100%;
+              background: #fff;
+              border-radius: 0; }
+    .contact .contents .news_content .wp-pagenavi {
+      margin-top: 30px;
+      text-align: center; }
+      .contact .contents .news_content .wp-pagenavi a {
+        border: none; }
+.contact.detail .news_content .news_title_area h1 {
+  font-size: 2rem;
+  line-height: 1.5; }
+.contact.detail .news_content .news_title_area p.date {
+  margin-top: 10px;
+  color: #64727a; }
+.contact.detail .news_content .contents p {
+  margin: 15px 0;
+  line-height: 1.75; }
+
+/*# sourceMappingURL=style_contact.css.map */

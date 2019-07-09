@@ -1,0 +1,219 @@
+.about .main .bg {
+  background-image: url(/common/images/service/service_fv_bg.jpg); }
+.about .contents {
+  background: #fff; }
+  .about .contents .leadarea {
+    padding: 25px 80px 80px 80px;
+    background: #fff;
+    max-width: 1250px;
+    margin: auto; }
+    @media screen and (max-width: 1000px) {
+      .about .contents .leadarea {
+        padding: 7%; }
+        .about .contents .leadarea .outer_contents.absolute {
+          position: relative;
+          width: 100%;
+          left: 0;
+          top: 0;
+          box-shadow: none;
+          padding: 0px 0 0px 7%;
+          border-left: 1px solid #e0e0e0;
+          border-radius: 0; } }
+    .about .contents .leadarea h1 {
+      color: #64727a; }
+      .about .contents .leadarea h1 span {
+        border-top: 5px solid #64727a;
+        color: #3a3a3a; }
+  .about .contents h2 {
+    font-size: 3rem;
+    color: #64727a;
+    margin-bottom: 35px; }
+    @media screen and (max-width: 1000px) {
+      .about .contents h2 {
+        font-size: 5rem;
+        line-height: 1;
+        margin-bottom: 50px; } }
+    .about .contents h2 span {
+      font-size: 1.6rem;
+      color: #3a3a3a;
+      font-weight: bold;
+      vertical-align: middle;
+      margin-left: 10px; }
+      @media screen and (max-width: 1000px) {
+        .about .contents h2 span {
+          display: block;
+          margin-left: 0;
+          margin-top: 15px;
+          font-size: 2.2rem; } }
+  .about .contents .profile {
+    padding: 120px 80px 0px;
+    max-width: 1250px;
+    box-sizing: border-box;
+    margin: auto; }
+    @media screen and (max-width: 1000px) {
+      .about .contents .profile {
+        padding: 7%; } }
+    .about .contents .profile table {
+      width: 100%;
+      font-size: 1.6rem; }
+      @media screen and (max-width: 1000px) {
+        .about .contents .profile table {
+          font-size: 2.2rem;
+          line-height: 1.75; } }
+      .about .contents .profile table tr {
+        border-top: solid #c0c0c0 1px; }
+        .about .contents .profile table tr:last-child {
+          border-bottom: solid #c0c0c0 1px; }
+        .about .contents .profile table tr th, .about .contents .profile table tr td {
+          padding: 25px 0;
+          vertical-align: top; }
+          @media screen and (max-width: 1000px) {
+            .about .contents .profile table tr th, .about .contents .profile table tr td {
+              display: block; } }
+        .about .contents .profile table tr th {
+          text-align: left; }
+          @media screen and (max-width: 1000px) {
+            .about .contents .profile table tr th {
+              padding-bottom: 0; } }
+  .about .contents .map {
+    padding: 80px;
+    max-width: 1250px;
+    box-sizing: border-box;
+    margin: auto; }
+    @media screen and (max-width: 1000px) {
+      .about .contents .map {
+        padding: 7%; } }
+    .about .contents .map .txtarea {
+      border-top: solid #c0c0c0 1px;
+      border-bottom: solid #c0c0c0 1px;
+      line-height: 1.5;
+      padding: 20px 0;
+      margin-top: 40px; }
+
+.officer .main .bg {
+  background-image: url(/common/images/service/service_fv_bg.jpg); }
+.officer .leadarea .outer_contents {
+  padding: 55px 60px 55px 170px !important;
+  box-sizing: border-box !important;
+  width: 70% !important;
+  top: 30px !important;
+  left: 250px !important;
+  position: relative; }
+  @media screen and (max-width: 1000px) {
+    .officer .leadarea .outer_contents {
+      position: relative;
+      width: 100%;
+      left: 0;
+      top: 0;
+      box-shadow: none;
+      margin-top: 250px;
+      padding: 0px 0 0px 7% !important;
+      border-left: 1px solid #e0e0e0;
+      border-radius: 0;
+      width: 100% !important;
+      left: 0 !important; } }
+.officer .leadarea h2 {
+  font-weight: 200;
+  position: relative; }
+  @media screen and (max-width: 1000px) {
+    .officer .leadarea h2 {
+      font-size: 4rem; } }
+  .officer .leadarea h2:before {
+    width: 150px;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    left: -165px;
+    display: block;
+    content: "";
+    background: #64727a; }
+    @media screen and (max-width: 1000px) {
+      .officer .leadarea h2:before {
+        display: none; } }
+.officer .leadarea .imgarea {
+  position: absolute;
+  z-index: 3;
+  width: 350px;
+  height: 350px;
+  overflow: hidden;
+  border-radius: 30px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  top: -70px; }
+.officer .leadarea p.meta {
+  text-align: right;
+  margin-top: 30px; }
+.officer .officers {
+  padding: 30px 80px 80px 80px;
+  background: linear-gradient(#d3dee5, #cbd9df);
+  margin-top: 40px;
+  margin-bottom: -50px; }
+  @media screen and (max-width: 1000px) {
+    .officer .officers {
+      padding: 15% 7%; } }
+  .officer .officers .in {
+    max-width: 1000px;
+    margin: auto;
+    position: relative;
+    top: -45px; }
+    .officer .officers .in .of_lis {
+      position: relative;
+      margin-bottom: 100px; }
+      .officer .officers .in .of_lis .outer_contents {
+        padding: 55px 60px 55px 150px !important;
+        box-sizing: border-box !important;
+        width: 70% !important;
+        top: 30px !important;
+        left: 250px !important;
+        position: relative; }
+        @media screen and (max-width: 1000px) {
+          .officer .officers .in .of_lis .outer_contents {
+            padding: 350px 7% 7% !important;
+            width: 100% !important;
+            top: 30px !important;
+            left: 0px !important; } }
+        .officer .officers .in .of_lis .outer_contents h2 {
+          color: #3a3a3a;
+          position: relative;
+          font-size: 2rem;
+          font-weight: 400; }
+          @media screen and (max-width: 1000px) {
+            .officer .officers .in .of_lis .outer_contents h2 {
+              font-size: 3rem; } }
+          .officer .officers .in .of_lis .outer_contents h2 span {
+            font-size: 1.4rem;
+            vertical-align: middle;
+            margin-right: 10px;
+            color: #64727a;
+            font-weight: 200; }
+            @media screen and (max-width: 1000px) {
+              .officer .officers .in .of_lis .outer_contents h2 span {
+                font-size: 2rem; } }
+        .officer .officers .in .of_lis .outer_contents p {
+          line-height: 1.75;
+          margin-bottom: 15px; }
+      .officer .officers .in .of_lis:nth-of-type(2n) .outer_contents {
+        padding: 55px 150px 55px 60px !important;
+        left: 0 !important; }
+        @media screen and (max-width: 1000px) {
+          .officer .officers .in .of_lis:nth-of-type(2n) .outer_contents {
+            padding: 350px 7% 0 !important;
+            width: 100% !important;
+            top: 30px !important;
+            left: 0px !important; } }
+      .officer .officers .in .of_lis:nth-of-type(2n) .imgarea {
+        right: 0; }
+      .officer .officers .in .of_lis .imgarea {
+        position: absolute;
+        z-index: 3;
+        width: 350px;
+        height: 350px;
+        overflow: hidden;
+        border-radius: 30px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        top: 70px; }
+        @media screen and (max-width: 1000px) {
+          .officer .officers .in .of_lis .imgarea {
+            top: -10px;
+            left: -60px; } }
+
+/*# sourceMappingURL=style_about.css.map */
