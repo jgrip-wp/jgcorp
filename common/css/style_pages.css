@@ -1,0 +1,45 @@
+.pages .contents {
+  background: #fff; }
+  .pages .contents .leadarea {
+    padding: 80px 80px 80px 80px;
+    background: #fff; }
+    .pages .contents .leadarea h1 {
+      color: #64727a;
+      text-align: center; }
+      .pages .contents .leadarea h1 span {
+        border-top: 5px solid #64727a;
+        color: #3a3a3a;
+        text-align: center;
+        margin: 25px auto 0; }
+  .pages .contents h2 {
+    font-size: 3rem;
+    color: #64727a;
+    margin-bottom: 35px; }
+    .pages .contents h2 span {
+      font-size: 1.6rem;
+      color: #3a3a3a;
+      font-weight: bold;
+      vertical-align: middle;
+      margin-left: 10px; }
+  .pages .contents .outer_contents {
+    padding: 80px;
+    position: relative;
+    top: -160px;
+    max-width: 1250px;
+    box-sizing: border-box;
+    margin: auto; }
+    @media screen and (max-width: 1000px) {
+      .pages .contents .outer_contents {
+        padding: 7%;
+        top: -60px; } }
+  .pages .contents .news_content {
+    background: linear-gradient(#d3dee5, #cbd9df);
+    padding: 140px 80px 0; }
+    .pages .contents .news_content p {
+      margin: 15px 0;
+      line-height: 1.75; }
+    @media screen and (max-width: 1000px) {
+      .pages .contents .news_content {
+        padding: 0% 7% 0; } }
+
+/*# sourceMappingURL=style_pages.css.map */

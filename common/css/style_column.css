@@ -1,0 +1,178 @@
+.column .main .bg {
+  background-image: url(/common/images/service/service_fv_bg.jpg); }
+.column .contents {
+  background: #fff; }
+  .column .contents .leadarea {
+    padding: 0;
+    position: relative;
+    top: -40px;
+    text-align: center;
+    margin-bottom: 40px; }
+    .column .contents .leadarea h1 {
+      color: #81b4f2; }
+      .column .contents .leadarea h1 span {
+        border-top: 0px solid #64727a;
+        margin: 0px auto 0; }
+      .column .contents .leadarea h1 span.en {
+        font-weight: normal;
+        font-size: 2.5rem;
+        color: #81b4f2; }
+  .column .contents .column_contents {
+    position: relative; }
+    .column .contents .column_contents:after {
+      content: "";
+      width: 80%;
+      background: linear-gradient(#d3dee5, #cbd9df);
+      height: 100%;
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0; }
+    .column .contents .column_contents .in {
+      max-width: 1250px;
+      margin: 0 auto;
+      position: relative;
+      z-index: 1;
+      top: -30px;
+      padding: 0 80px; }
+      @media screen and (max-width: 1400px) {
+        .column .contents .column_contents .in {
+          max-width: 100%; } }
+    .column .contents .column_contents .colum_lists {
+      position: relative;
+      width: 75%;
+      display: flex;
+      flex-wrap: wrap; }
+      .column .contents .column_contents .colum_lists .columnlists_in {
+        display: flex;
+        flex-wrap: wrap; }
+      .column .contents .column_contents .colum_lists .list {
+        width: 30%;
+        display: inline-block;
+        margin-right: 3%;
+        margin-bottom: 30px; }
+        @media screen and (max-width: 1400px) {
+          .column .contents .column_contents .colum_lists .list {
+            width: 45%; } }
+        .column .contents .column_contents .colum_lists .list.outer_contents {
+          overflow: hidden;
+          border-radius: 10px; }
+        .column .contents .column_contents .colum_lists .list:hover .thumb img {
+          transform: scale(1.1); }
+        .column .contents .column_contents .colum_lists .list .thumb {
+          height: 168px;
+          overflow: hidden; }
+          .column .contents .column_contents .colum_lists .list .thumb img {
+            transition: 0.5s;
+            width: 100%;
+            height: 168px;
+            object-fit: cover; }
+        .column .contents .column_contents .colum_lists .list .cat_tag {
+          background: #81b4f2;
+          padding: 5px;
+          color: #fff;
+          display: inline-block;
+          position: relative;
+          top: -10px; }
+        .column .contents .column_contents .colum_lists .list .txtarea {
+          padding: 25px; }
+          .column .contents .column_contents .colum_lists .list .txtarea h2 {
+            font-size: 1.6rem;
+            line-height: 1.5;
+            margin-bottom: 10px; }
+          .column .contents .column_contents .colum_lists .list .txtarea p {
+            color: #ababab; }
+    .column .contents .column_contents .column_side {
+      width: 25%; }
+      .column .contents .column_contents .column_side .category_lists {
+        padding: 0 30px 15px 30px; }
+      .column .contents .column_contents .column_side h2 {
+        font-size: 3rem;
+        text-align: center;
+        position: relative;
+        top: -15px;
+        color: #81b4f2; }
+      .column .contents .column_contents .column_side ul li {
+        text-align: center; }
+        .column .contents .column_contents .column_side ul li a {
+          padding: 15px 0;
+          display: block;
+          border-bottom: 1px solid #d0d0d0; }
+        .column .contents .column_contents .column_side ul li:last-child a {
+          border: none; }
+@media screen and (max-width: 1000px) {
+  .column .contents .column_contents .in {
+    padding: 0 7%; }
+    .column .contents .column_contents .in .colum_lists {
+      width: 100%; }
+      .column .contents .column_contents .in .colum_lists .list {
+        width: 100%;
+        margin-right: 0; }
+        .column .contents .column_contents .in .colum_lists .list .txtarea h2 {
+          font-size: 2.2rem; }
+        .column .contents .column_contents .in .colum_lists .list .txtarea p {
+          font-size: 1.8rem; }
+  .column .contents .column_contents .column_side {
+    width: 100%;
+    margin-top: 60px; }
+    .column .contents .column_contents .column_side h2 {
+      font-size: 6rem;
+      top: -45px; } }
+.column.detail .colum_detail {
+  position: relative;
+  width: 65%;
+  margin-right: 5%;
+  overflow: hidden;
+  padding-bottom: 40px; }
+  .column.detail .colum_detail .cat_tag {
+    background: #81b4f2;
+    padding: 5px;
+    color: #fff;
+    display: inline-block;
+    position: relative;
+    top: -10px; }
+  .column.detail .colum_detail .txtarea h1 {
+    font-size: 2.5rem;
+    margin-top: 35px;
+    padding-left: 30px;
+    font-weight: 200;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 30px; }
+  .column.detail .colum_detail .column_in_contents {
+    padding: 0 30px;
+    line-height: 1.75; }
+    .column.detail .colum_detail .column_in_contents p {
+      margin: 25px 0; }
+    .column.detail .colum_detail .column_in_contents h2 {
+      margin-top: 60px;
+      font-size: 2.2rem;
+      font-weight: 200;
+      margin-bottom: 30px; }
+    .column.detail .colum_detail .column_in_contents img {
+      margin: 15px 0; }
+  .column.detail .colum_detail .contact_area {
+    border-top: 1px solid #e0e0e0;
+    padding: 30px;
+    margin-top: 50px; }
+    .column.detail .colum_detail .contact_area a {
+      width: 80%;
+      text-align: center;
+      display: block;
+      background: #f7657e90;
+      margin: auto;
+      padding: 30px;
+      font-size: 2.5rem;
+      border-radius: 15px;
+      color: #fff;
+      border: #f33b5b; }
+  @media screen and (max-width: 1000px) {
+    .column.detail .colum_detail {
+      width: 100%; }
+      .column.detail .colum_detail .txtarea h1 {
+        padding: 20px;
+        font-size: 3.5rem; }
+      .column.detail .colum_detail .column_in_contents h2 {
+        font-size: 2.8rem; } }
+
+/*# sourceMappingURL=style_column.css.map */

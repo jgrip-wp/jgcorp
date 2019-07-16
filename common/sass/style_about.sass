@@ -1,0 +1,235 @@
+@import "s"
+
+.about
+  .main
+    .bg
+      background-image: url(/common/images/about/about_fv_bg.png)
+  .contents
+    background: #fff
+    .leadarea
+      padding: 25px 80px 80px 80px
+      background: #fff
+      max-width: 1250px
+      margin: auto
+      @include sp_wid
+        padding: 7%
+        .outer_contents.absolute
+          position: relative
+          width: 100%
+          left: 0
+          top: 0
+          box-shadow: none
+          padding: 0px 0 0px 7%
+          border-left: 1px solid #e0e0e0
+          border-radius: 0
+      h1
+        color: $c_gray_03
+        span
+          border-top: 5px solid $c_gray_03
+          color: $c_gray
+    h2
+      font-size: 3.0rem
+      color: $c_gray_03
+      margin-bottom: 35px
+      @include sp_wid
+        font-size: 5.0rem
+        line-height: 1
+        margin-bottom: 50px
+      span
+        font-size: 1.6rem
+        color: $c_gray
+        font-weight: bold
+        vertical-align: middle
+        margin-left: 10px
+        @include sp_wid
+          display: block
+          margin-left: 0
+          margin-top: 15px
+          font-size: 2.2rem
+    .profile
+      padding: 120px 80px 0px
+      max-width: 1250px
+      box-sizing: border-box
+      margin: auto
+      @include sp_wid
+        padding: 7%
+      table
+        width: 100%
+        font-size: 1.6rem
+        @include sp_wid
+          font-size: 2.2rem
+          line-height: 1.75
+        tr
+          border-top: solid #c0c0c0 1px
+          &:last-child
+            border-bottom: solid #c0c0c0 1px
+          th,td
+            padding: 25px 0
+            vertical-align: top
+            @include sp_wid
+              display: block
+          th
+            text-align: left
+            @include sp_wid
+              padding-bottom: 0
+    .map
+      padding: 80px
+      max-width: 1250px
+      box-sizing: border-box
+      margin: auto
+      @include sp_wid
+        padding: 7%
+      .txtarea
+        border-top: solid #c0c0c0 1px
+        border-bottom: solid #c0c0c0 1px
+        line-height: 1.5
+        padding: 20px 0
+        margin-top: 40px
+
+.officer
+  .main
+    .bg
+      background-image: url(/common/images/about/about_fv_bg.png)
+  .leadarea
+    .outer_contents
+      padding: 55px 60px 55px 170px !important
+      box-sizing: border-box !important
+      width: 70% !important
+      top: 0px !important
+      left: 250px !important
+      position: relative
+      transition: 0.5s
+      opacity: 0
+      @include sp_wid
+        position: relative
+        width: 100%
+        left: 0
+        top: 0
+        box-shadow: none
+        margin-top: 250px
+        padding: 0px 0 0px 7% !important
+        border-left: 1px solid #e0e0e0
+        border-radius: 0
+        width: 100% !important
+        left: 0 !important
+    h2
+      font-weight: 200
+      position: relative
+      @include sp_wid
+        font-size: 4.0rem
+      &:before
+        width: 150px
+        height: 1px
+        position: absolute
+        top: 50%
+        left: -165px
+        display: block
+        content: ""
+        background: #64727a
+        @include sp_wid
+          display: none
+    .imgarea
+      position: absolute
+      z-index: 3
+      width: 350px
+      height: 350px
+      overflow: hidden
+      border-radius: 30px
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2)
+      top: -110px
+      opacity: 0
+      transition: 1s
+    p.meta
+      text-align: right
+      margin-top: 30px
+    &.one
+      .outer_contents
+        top: 30px !important
+        opacity: 1
+      .imgarea
+        top: -70px
+        opacity: 1
+  .officers
+    padding: 30px 80px 80px 80px
+    background: linear-gradient(#d3dee5, #cbd9df)
+    margin-top: 40px
+    margin-bottom: -50px
+    @include sp_wid
+      padding: 15% 7%
+    .in
+      max-width: 1000px
+      margin: auto
+      position: relative
+      top: -45px
+      .of_lis
+        position: relative
+        margin-bottom: 100px
+        .outer_contents
+          padding: 55px 60px 55px 150px !important
+          box-sizing: border-box !important
+          width: 70% !important
+          top: -20px !important
+          left: 250px !important
+          position: relative
+          transition: 0.5s
+          opacity: 0
+          @include sp_wid
+            padding: 350px 7% 7% !important
+            width: 100% !important
+            top: 30px !important
+            left: 0px !important
+          h2
+            color: #3a3a3a
+            position: relative
+            font-size: 2.0rem
+            font-weight: 400
+            @include sp_wid
+              font-size: 3.0rem
+            span
+              font-size: 1.4rem
+              vertical-align: middle
+              margin-right: 10px
+              color: #64727a
+              font-weight: 200
+              @include sp_wid
+                font-size: 2.0rem
+            &:before
+          p
+            line-height: 1.75
+            margin-bottom: 15px
+        &:nth-of-type(2n)
+          .outer_contents
+            padding: 55px 150px 55px 60px !important
+            left: 0 !important
+            @include sp_wid
+              padding: 350px 7% 0 !important
+              width: 100% !important
+              top: 30px !important
+              left: 0px !important
+          .imgarea
+            right: 0
+        .imgarea
+          position: absolute
+          z-index: 3
+          width: 350px
+          height: 350px
+          overflow: hidden
+          border-radius: 30px
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2)
+          top: 30px
+          transition: 1s
+          opacity: 0
+          @include sp_wid
+            top: -10px
+            left: -60px
+        &.one
+          .outer_contents
+            top: 30px !important
+            opacity: 1
+          .imgarea
+            top: 70px
+            opacity: 1
+
+
+
+

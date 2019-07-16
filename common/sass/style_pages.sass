@@ -1,0 +1,44 @@
+@import "s"
+
+.pages
+  .contents
+    background: #fff
+    .leadarea
+      padding: 80px 80px 80px 80px
+      background: #fff
+      h1
+        color: $c_gray_03
+        text-align: center
+        span
+          border-top: 5px solid $c_gray_03
+          color: $c_gray
+          text-align: center
+          margin: 25px auto 0
+    h2
+      font-size: 3.0rem
+      color: $c_gray_03
+      margin-bottom: 35px
+      span
+        font-size: 1.6rem
+        color: $c_gray
+        font-weight: bold
+        vertical-align: middle
+        margin-left: 10px
+    .outer_contents
+      padding: 80px
+      position: relative
+      top: -160px
+      max-width: 1250px
+      box-sizing: border-box
+      margin: auto
+      @include sp_wid
+        padding: 7%
+        top: -60px
+    .news_content
+      background: linear-gradient(#d3dee5, #cbd9df)
+      padding: 140px 80px 0
+      p
+        margin: 15px 0
+        line-height: 1.75
+      @include sp_wid
+        padding: 0% 7% 0
